@@ -2,7 +2,7 @@ export const Canchas = [
   {
     id: 1,
     star: 4,
-    title: "Barra Gol",
+    title: "Internacional Golazo",
     description: "Cancha de grass sintetico 40 de largo x 20 ancho",
     price: 60,
     completed: false,
@@ -10,7 +10,7 @@ export const Canchas = [
   {
     id: 2,
     star: 3,
-    title: "Super Pichanga",
+    title: "Mundialito TACNA",
     description: "Cancha de grass sintetico 60 de largo x 30 ancho",
     price: 60,
     completed: false,
@@ -18,7 +18,7 @@ export const Canchas = [
   {
     id: 3,
     star: 5,
-    title: "Hector Cancha",
+    title: "TOP GOL",
     description: "Cancha de grass sintetico 50 de largo x 25 ancho",
     price: 60,
     completed: false,
@@ -26,7 +26,7 @@ export const Canchas = [
   {
     id: 4,
     star: 4,
-    title: "Super Campeones",
+    title: "Cancha Cortec",
     description: "Cancha de grass sintetico 60 de largo x 40 ancho",
     price: 60,
     completed: false,
@@ -42,7 +42,7 @@ export const Canchas = [
   {
     id: 6,
     star: 4,
-    title: "28 de Agosto",
+    title: "Quinta Gutiérrez",
     description: "Cancha de grass sintetico 40 de largo x 20 ancho",
     price: 60,
     completed: false,
@@ -50,7 +50,7 @@ export const Canchas = [
   {
     id: 7,
     star: 4,
-    title: "Cachipucara",
+    title: "Don Hector",
     description: "Cancha de grass sintetico 80 de largo x 40 ancho",
     price: 80,
     completed: false,
@@ -58,7 +58,7 @@ export const Canchas = [
   {
     id: 8,
     star: 4,
-    title: "Puro Gol",
+    title: "28 de Agosto",
     description: "Cancha de grass sintetico 50 de largo x 25 ancho",
     price: 60,
     completed: false,
