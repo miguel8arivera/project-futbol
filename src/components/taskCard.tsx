@@ -1,3 +1,4 @@
+import foto from "../img/mundialito.jpg";
 import { Task } from "../assets/interface";
 
 interface Props {
@@ -13,6 +14,7 @@ export const TaskCard = ({ task }: Props) => {
           <b>{task.star}</b> ⭐⭐⭐⭐
         </p>
         <p>{task.description}</p>
+        <img src={foto} alt="" width={250} height={150} />
         <p>{task.price} soles x hora</p>
         <p>Calificar cancha</p>
       </div>
