@@ -2,17 +2,21 @@ import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Canchas } from "../assets/user";
 
-export const TaskForm = () => {
-  const [query, setQuery] = useState("");
+type TaskFormProps = {
+  onSearch: (query: string) => void
+}
 
-  const keys = ["title", "description", "price", "star"];
-  // console.log(Canchas[2]["title"]);
+export const TaskForm = ({ onSearch } : TaskFormProps) => {
+  // const [query, setQuery] = useState("");
 
-  const search = (data: any) => {
-    return data.filter((item: any) =>
-      keys.some((key) => item[key].toLowerCase().includes(query))
-    );
-  };
+  // const keys = ["title", "description", "price", "star"];
+  // // console.log(Canchas[2]["title"]);
+
+  // const search = (data: any) => {
+  //   return data.filter((item: any) =>
+  //     keys.some((key) => item[key].toLowerCase().includes(query))
+  //   );
+  // };
 
   return (
     <div>
@@ -22,7 +26,7 @@ export const TaskForm = () => {
           type="search"
           placeholder="Busca aqui..."
           className=" form-control"
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => onSearch(e.target.value)}
         />
         {/* <button>
           <FaSearch />

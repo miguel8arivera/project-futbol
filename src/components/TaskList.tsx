@@ -1,12 +1,12 @@
-import { TaskCard } from "./taskCard";
+import { TaskCard } from "./TaskCard";
 import { Task } from "../assets/interface";
-import { FaSearch } from "react-icons/fa";
+import { Canchas } from "../assets/user";
 
 interface Props {
   tasks: Task[];
 }
 
-export const TasklList = ({ tasks }: Props) => {
+export const TaskList = ({ tasks }: Props) => {
   return (
     <>
       {tasks.map((task, id) => (

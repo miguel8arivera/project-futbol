@@ -6,6 +6,8 @@ export const Canchas = [
     description: "Cancha de grass sintetico 40 de largo x 20 ancho",
     price: 60,
     completed: false,
+    latitude: 0,
+    longitude: 0
   },
   {
     id: 2,
